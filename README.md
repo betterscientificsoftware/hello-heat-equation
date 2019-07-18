@@ -1,4 +1,3 @@
-# README.md
 ## "The Heat Equation is the 'Hello World' of Scientific Computing"
 
 The files listed in this repository are Sequential1DHeat.md and LibraryImplementations.md
