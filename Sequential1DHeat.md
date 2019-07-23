@@ -66,7 +66,6 @@ END SUBROUTINE update_solution_ftcs
 function update_solution_ftcs(n, uk1, uko, alpha, dx, dt, bc0, bc1)
     r = alpha * dt / (dx^2)
 
-
     if r > 0.5
         return false
     end
@@ -125,4 +124,4 @@ def update_solution_ftcs(n, uk1, uk0, alpha, dx, dt, bc0, bc1):
     return uk1
 ```
 
-We can see with the simple 1 dimensional hand-coded implementations that no matter the programming language the codes look very similar with just some slight modifications to syntax.
+We can see with the simple 1-dimensional hand-coded implementations that no matter the programming language the codes look very similar with just some slight modifications to syntax.
