@@ -18,14 +18,3 @@ As a result of the Heat Equation being so expansive and taking on several differ
 ### [LibraryImplmentations.md](./LibraryImplementations.md)
 While users can hand code their own implementation of the heat equation, it is usually not recommended for more complicated data sets. This file shows a couple examples of how heat is coded in the numerical libraries MFEM and FD1D\_HEAT\_EXPLICIT. Using numerical libraries allows the user to save time by not reinventing the wheel and access different features the library may provide.
 
-## **How to Contribute**:
-All changed can be sumbitted via a pull request. Testing for proper syntax and runnability is left to the contributor. 
-
-### Needed versions of the 1D Heat Equation function:
-* MPI (C)
-* MPI (Fortran)
-* OpenMP (Fortran)
-* Parallel/Sequential Library Implementations
-* Misc.
-
-For questions or concerns, submit an issue or send an email to Heather Switzer at hmswitzer@email.wm.edu.
