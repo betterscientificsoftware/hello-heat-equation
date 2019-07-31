@@ -15,6 +15,6 @@ This example was created by [@Heatherms27](https://github.com/Heatherms27)
 ### [3rdPartyHeatEquations.md](./3rdPartyHeatEquations.md)
 As a result of the Heat Equation being so expansive and taking on several different forms, many examples of heat equation implementations are readily availible through a quick Google search. This file contains a table that includes links to user implementations of the 1-dimensional, 2-dimensional, and LaPlace forms of the Heat Equation in C, C++, Fortran, Julia, Matlab, and Python. 
 
-### [LibraryImplmentations.md](./LibraryImplementations.md)
-While users can hand code their own implementation of the heat equation, it is usually not recommended for more complicated data sets. This file shows a couple examples of how heat is coded in the numerical libraries MFEM and FD1D\_HEAT\_EXPLICIT. Using numerical libraries allows the user to save time by not reinventing the wheel and access different features the library may provide.
-
+### [1DLibImplementations/](./LibraryImplementations/)
+While a user may find it more comfortable to hand code their own implementation of the heat equation, it would be more beneficial to take advantage of pre-existing codes. Several libraries have already provided a code base that saves users time and allows them to access additional features the library may provide. Below are a couple of library implementations of the heat equation.  
+__*For a full list of finite element software packages, see [this list from Wikipedia](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages "Finite Element Software Packages").*__
