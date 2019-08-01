@@ -12,7 +12,7 @@ This file currently only shows a parallel implementation of a function that calc
 
 This example was created by [@Heatherms27](https://github.com/Heatherms27)
 
-### [1DLibImplementations/](./1DLibImplementations/)
+### [1DLibImplementations](./1DLibImplementations/)
 While a user may find it more comfortable to hand code their own implementation of the heat equation, it would be more beneficial to take advantage of pre-existing codes. Several libraries have already provided a code base that saves users time and allows them to access additional features the library may provide. Below are a couple of library implementations of the heat equation.  
 __*For a full list of finite element software packages, see [this list from Wikipedia](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages "Finite Element Software Packages").*__
 
