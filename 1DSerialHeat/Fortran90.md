@@ -1,5 +1,5 @@
 ## Serial Fortran90 Implementation
-The input parameters for the hand-coded functions are as follows:
+The input parameters are as follows:
 ```
 n     = Number of temperature samples        ! Integer
 uk1   = New temperatures across x-axis       ! Array of Doubles
