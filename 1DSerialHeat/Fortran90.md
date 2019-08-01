@@ -7,7 +7,7 @@ uk0   = Old temperatures across x-axis       ! Array of Doubles
 alpha = Thermal Diffusity                    ! Double
 dx    = Spacing in space                     ! Double
 dt    = Spacing in time                      ! Double
-bc0   = Beginning boundary condition (x = 0) ! Double
+bc0   = Beginning boundary condition (x = 1) ! Double
 bc1   = End boundary condition (x = L_x)     ! Double
 ```
 
