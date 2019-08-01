@@ -1,14 +1,14 @@
 ## Serial C/C++ Implementation
 The input parameters are as follows:
 ```
-n     = Number of temperature samples        # Integer
-uk1   = New temperatures across x-axis       # Array of Doubles
-uk0   = Old temperatures across x-axis       # Array of Doubles
-alpha = Thermal Diffusity                    # Double
-dx    = Spacing in space                     # Double
-dt    = Spacing in time                      # Double
-bc0   = Beginning boundary condition (x = 0) # Double
-bc1   = End boundary condition (x = L_x)     # Double
+n     = Number of temperature samples        // Integer
+uk1   = New temperatures across x-axis       // Array of Doubles
+uk0   = Old temperatures across x-axis       // Array of Doubles
+alpha = Thermal Diffusity                    // Double
+dx    = Spacing in space                     // Double
+dt    = Spacing in time                      // Double
+bc0   = Beginning boundary condition (x = 0) // Double
+bc1   = End boundary condition (x = L_x)     // Double
 ```
 
 ```c
