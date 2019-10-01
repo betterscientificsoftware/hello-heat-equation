@@ -79,7 +79,22 @@ bc0   = Beginning boundary condition (x = 0) # Double
 bc1   = End boundary condition (x = L_x)     # Double
 ```
 
-From here we define a series of implementations.
+### Programming Model Example: OpenMP (C)
+OpenMP is a portable way to add parallelism to a program. The [OpenMP Heat Equation](https://github.com/betterscientificsoftware/hello-heat-equation/blob/master/Parallel1DHeat.md "Parallel 1D Heat") demonstrates the use of `#pragma` syntax. We see that this implementation is a 2-line change from the base implementation.
+
+### Library Example: MFEM (C++)
+Scientific software programmers are able to take advantage of numerical libraries instead of hand-coding implementations, which can optimize performance and allow access to the additional features. Most of these implementations have multiple steps that are outlined to produce accurate outputs and visual depictations of the solution.
+
+[MFEM](https://mfem.org/ "MFEM") is an opensource C++ library for finite element methods. They provide a [serial implementation of the Heat Equation](https://mfem.github.io/doxygen/html/ex16_8cpp_source.html "ex16.cpp"), though they also produce a parallelized version of this code. This is simplified even further, in a (very) [condensed version of the code](https://github.com/betterscientificsoftware/hello-heat-equation/blob/master/LibraryImplementations.md "Condensed MFEM"), to demonstrate the core Heat Equation algorithm.
+
+This implementation clearly demonstrates the complexity introduced by using a third-party library. However, users gain access to a number of numerical solvers, parallelism, and even GPU capability.
+
+### Library Example 2: FD1D\_HEAT\_EXPLICIT (C)
+While highly developed numerical libraries such as MFEM have a wide range of functionality and support options, others are smaller. They still provide support for different use cases of function like the heat equation, but do not come with the obscurity and extra features that may intimidate users.
+
+[FD1D\_HEAT\_EXPLICIT](https://people.sc.fsu.edu/~jburkardt/c_src/fd1d_heat_explicit/fd1d_heat_explicit.html "FD1D\_HEAT\_EXPLICIT") is a simple 1-dimensional Heat Equation solver which uses the explicit version of the finite difference method to handle time integration. Versions of this library are written in C, C++, Fortran90, Matlab, and Python. A [code example from the library](https://github.com/betterscientificsoftware/hello-heat-equation/blob/master/LibraryImplementations.md "FD1D") demonstrates a sequential implementation, but can easily be adapted to become parallelized.
+
+While this code is almost identical the hand-coded example above, this library does include some extra features that allows users to implement some additional functionality including writing results to different kinds of R8 files, adding a timestamp, and solving for the Courant-Friedrichs-Loewy coefficient.
 
 ## This repository is a showcase of 1D Heat Equation implementations.
 
